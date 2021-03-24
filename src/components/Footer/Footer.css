@@ -1,0 +1,22 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BDBF09;
+  }
+
+a {
+    color: #F5EFED;
+    padding: 5px;
+}
+
+.footer-name {
+    color: #F5EFED;
+    margin: 5px;
+}
+
+@media all and (min-width: 800px) {
+    a :hover {
+        color: #0F0A0A;
+    }
+}
