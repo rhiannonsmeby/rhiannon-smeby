@@ -50,6 +50,12 @@ p {
     margin: 10px;
 }
 
+p a {
+    font-weight: 700;
+    color: #2292A4;
+    text-decoration: none;
+}
+
 @media all and (min-width: 800px) {
     .intro {
         display: flex;
@@ -79,5 +85,11 @@ p {
         margin-right: 20px;
         font-size: 80px;
         text-align: center;
+    }
+
+    p a:hover {
+        background-color: #D96C06;
+        color: #F5EFED;
+        padding: 10px;
     }
 }

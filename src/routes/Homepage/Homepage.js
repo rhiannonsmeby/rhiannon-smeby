@@ -44,7 +44,7 @@ export default function Homepage() {
                     In addition to programming- I love painting, running, reading, and watching bad reality tv.
                 </p>
                 <p>
-                    Check out my resume, GitHub, or LinkedIn to learn more about my qualifications!
+                    Check out my <a href={`https://docs.google.com/document/d/1qi1i3YY0NO8XRGlfLuwDW78kpWSzrpVjXHVJDE9cjCs/edit?usp=sharing`} target={"_blank"} rel={'noreferrer'}>resume</a>, <a href={`https://github.com/rhiannonsmeby`} target={"_blank"} rel={'noreferrer'}>GitHub</a>, or <a href={`https://www.linkedin.com/in/rhiannonsmeby/`} target={"_blank"} rel={'noreferrer'}>LinkedIn</a> to learn more about my qualifications!
                 </p>
             </div>
         </div>
