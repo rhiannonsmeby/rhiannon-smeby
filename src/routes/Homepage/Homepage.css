@@ -3,7 +3,7 @@ p {
 }
 
 img {
-    border-radius: 50%;
+    border-radius: 1rem;
     width: 300px;
     margin-top: 30px;
 }
@@ -80,16 +80,16 @@ p a {
         margin-bottom: 0;
     }
 
-    .introduction h2 {
+    .introduction h2, h3 {
         margin: 0;
-        margin-right: 20px;
-        font-size: 80px;
-        text-align: center;
+        margin-left: 12px;
+        text-align: left;
     }
 
     p a:hover {
         background-color: #D96C06;
         color: #F5EFED;
         padding: 10px;
+        border-radius: 1rem;
     }
 }

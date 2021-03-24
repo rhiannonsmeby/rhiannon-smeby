@@ -19,7 +19,7 @@ export default function Homepage() {
                 <p>
                     I enjoy programming JavaScript applications and as a former 
                     political science major and lifetime student of the social sciences, I
-                    am passionate about creating web apps that make life easier and better.
+                    am passionate about creating web apps that make life easier and more enjoyable.
                 </p>
                 <p>
                     Take a look at my website and feel free to <a href={`mailto:smebyrhi@gmail.com`} target={`_blank`}>contact me</a>!
@@ -31,12 +31,12 @@ export default function Homepage() {
                 <p>
                     After graduating college, I began working as a development coordinator
                     at a local nonprofit. I got to design and regularly update the 
-                    organization's website, create marketing copy for social media, and
+                    organization's website, create marketing copy for social media, lead donor communications, and
                     write grants. While I was there, I quickly realized the value 
                     (and fun!) in coding.
                 </p>
                 <p>
-                    Lately, I have been immersed in a full-time Software Engingineering  
+                    Lately, I have been immersed in a full-time Software Engineering  
                     certificate program where I learned HTML, CSS, JavaScript, and associated 
                     frontend and backend languages and libraries. 
                 </p>
