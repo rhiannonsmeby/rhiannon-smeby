@@ -18,8 +18,9 @@ header {
   }
 
   .title {
-    font-size: 25px;
+    font-size: 30px;
     color: #F5EFED;
+    margin-bottom: 0;
   }
 
   .title a {
@@ -38,6 +39,7 @@ header {
 
   li {
       list-style: none;
+      font-size: 20px;
   }
 
   .nav-item a {
