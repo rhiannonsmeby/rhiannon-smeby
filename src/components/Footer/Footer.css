@@ -1,22 +1,24 @@
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    background-color: #BDBF09;
+    background-color: #4D9078;
   }
 
 footer a {
-    color: #F5EFED;
+    color: #E6E6E6;
     padding: 5px;
 }
 
 .footer-name {
-    color: #F5EFED;
-    margin: 5px;
+    color: #E6E6E6;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 @media all and (min-width: 800px) {
     a :hover {
-        color: #0F0A0A;
+        color: #39393A;
     }
 }

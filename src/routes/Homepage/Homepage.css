@@ -8,19 +8,6 @@ img {
     margin-top: 30px;
 }
 
-.introduction h2 {
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: 30px;
-    font-size: 100px;
-}
-
-h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 60px;
-}
-
 p {
     font-size: 20px;
     margin: 20px;
@@ -50,9 +37,20 @@ p {
     margin: 10px;
 }
 
+.about-me h2 {
+    text-align: left;
+    font-weight: 100;
+}
+
+.about-me p {
+    text-align: left;
+    font-weight: 300;
+    font-size: 16px;
+}
+
 p a {
-    font-weight: 700;
-    color: #2292A4;
+    font-weight: 600;
+    color: #30638E;
     text-decoration: none;
 }
 
@@ -76,9 +74,9 @@ p a {
     }
 
     p a:hover {
-        background-color: #D96C06;
-        color: #F5EFED;
+        background-color: #FF8552;
+        color: #E6E6E6;
         padding: 10px;
-        border-radius: 1rem;
+        border-radius: 0.5rem;
     }
 }

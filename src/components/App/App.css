@@ -1,4 +1,8 @@
 .App {
   text-align: center;
-  background-color: #F5EFED;
+  background-color: #E6E6E6;
+}
+
+p, h1, h2 {
+  margin: 20px;
 }
