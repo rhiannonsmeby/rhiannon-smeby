@@ -1,0 +1,33 @@
+  .gridItem {
+    flex-basis: 33.33%;
+    height: auto;
+    width: 150px;
+    position: relative;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  /* @media all and (min-width: 1333px) {
+    .gridItem {
+      height: auto;
+      width: 200px;
+    }
+  }
+  @media all and (min-width: 1073px) {
+     .gridItem {
+      height: auto;
+      width: 300px;
+    }
+  } */
+  @media all and (min-width: 1000px) {
+    .gridItem {
+      height: auto;
+      width: 300px;
+    }
+  }
+
+  @media all and (min-width: 1500px) {
+    .gridContainer {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+  }

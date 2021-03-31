@@ -1,13 +1,13 @@
-import React from 'react'
-import img from '../../images/rhiannon-profile.jpg'
-import './Homepage.css'
+import React from 'react';
+import PhotoGrid from '../../components/PhotoGrid/PhotoGrid';
+import './Homepage.css';
 
 export default function Homepage() {
     return (
         <div className='homepage'>
             <div className='intro'>
-            <div className='photo'>
-                <img src={img} alt='rhiannon'/>
+            <div className='photos'>
+                <PhotoGrid />
             </div>
             <div className='introduction'>
                 <h2>Hello,</h2>
@@ -26,6 +26,7 @@ export default function Homepage() {
                 </p>
             </div>
             </div>
+            <hr />
             <div className='about-me'>
                 <h2>About me:</h2>
                 <p>
@@ -48,5 +49,5 @@ export default function Homepage() {
                 </p>
             </div>
         </div>
-    )
+    );
 }

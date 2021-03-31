@@ -57,11 +57,6 @@ p a {
 }
 
 @media all and (min-width: 800px) {
-    .intro {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
     
     .introduction {
         flex: 2;
@@ -78,12 +73,6 @@ p a {
     .about-me h2 {
         margin-left: 20px;
         margin-bottom: 0;
-    }
-
-    .introduction h2, h3 {
-        margin: 0;
-        margin-left: 12px;
-        text-align: left;
     }
 
     p a:hover {

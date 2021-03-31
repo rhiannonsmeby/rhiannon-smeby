@@ -1,117 +1,20 @@
 header {
+    padding: 10px 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #BDBF09;
-  }
-
-  .header {
-    margin: 0;
-    position: sticky;
+    justify-content: space-between;
+    align-items: flex-start;
     top: 0;
   }
 
-  h1 a {
-    margin: 0;
-    color: #F5EFED;
-    text-align: center;
+  .devName {
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 50px;
+      margin-bottom: 0;
   }
 
-  .title {
-    font-size: 30px;
-    color: #F5EFED;
-    margin-bottom: 0;
+  .devDescription {
+      text-align: left;
+      font-weight: 100;
   }
-
-  .title a {
-    text-decoration: none;
-    color: #F5EFED;
-  }
-
-  .navigation {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 150px;
-    margin-top: 10px;
-  }
-
-  li {
-      list-style: none;
-      font-size: 20px;
-  }
-
-  .nav-item a {
-    text-decoration: none;
-    color: #F5EFED;
-    font-weight: 600;
-    margin-right: 16px;
-  }
-  .nav-item a:visited {
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .nav-item {
-    font-weight: 600;
-  }
-
-  .header-nav a,
-  span {
-    padding: 0px 20px;
-  }
-
-@media all and (min-width: 800px) {
-  header {
-    padding: 10px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-  }
-
-  .title {
-    font-size: 35px;
-    margin: 0;
-  }
-
-  .title a {
-    text-decoration: none;
-    color: #F5EFED;
-  }
-
-  .nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    min-width: 200px;
-  }
-
-  .nav-item {
-    text-decoration: none;
-    font-size: 25px;
-    padding: 10px;
-    color: #0F0A0A;
-  }
-
-  .nav-item a:hover {
-    color: #0F0A0A;
-  }
-
-  .nav a:visited {
-    text-decoration: none;
-    font-weight: 600;
-  }
-
-  .nav {
-    font-size: 20px;
-  }
-  .nav a {
-    padding: 8px 10px;
-    margin: 0px 10px;
-  }
-}
