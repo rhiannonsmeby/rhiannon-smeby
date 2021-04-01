@@ -21,6 +21,6 @@ export default function PhotoGridImages(props) {
             : (props.photoId === 8) ? image = california
             : image = null;
     return (
-        <img className='projectImage' src={image} alt={props.title}></img>
+        <img className='gridImage' src={image} alt={props.title}></img>
     )
 }

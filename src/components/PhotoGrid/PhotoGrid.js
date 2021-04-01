@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import PhotoGridImages from './PhotoGridImages';
 import './PhotoGrid.css';
 
@@ -6,7 +6,7 @@ export default class PhotoGrid extends React.Component {
     constructor() {
         super()
         this.state = {
-            showMe: true
+            showMe: false
         }
     }
     handleClick = () => {

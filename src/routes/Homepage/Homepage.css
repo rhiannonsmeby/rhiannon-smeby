@@ -48,6 +48,22 @@ p a {
     text-decoration: none;
 }
 
+.gridContainer {
+    max-width: 1335px;
+    margin: 0 auto;
+  }
+
+  .gridRows {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  } 
+
+  .photos h2 {
+    font-weight: 100;
+    font-size: 12px;
+  }
+
 @media all and (min-width: 800px) {
     
     .introduction {
@@ -71,4 +87,15 @@ p a {
         color: #FF8552;
         border-radius: 0.5rem;
     }
+
+    .photos h2 {
+        font-size: 16px;
+    }
 }
+
+@media all and (min-width: 1500px) {
+    .gridContainer {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+  }

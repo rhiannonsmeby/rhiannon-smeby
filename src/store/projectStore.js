@@ -26,7 +26,7 @@ const PROJECTS = [
     {
         id: 3,
         name: 'Spaced Repetition',
-        description: `This website teaches users the essential French words for an easy 
+        description: `This website teaches users essential French words for an easy 
         trip to the boulangerie using the spaced repetition revision technique. This project 
         demonstrates my ability to work with an existing code base and utilize 
         the Linked List data structure.`,

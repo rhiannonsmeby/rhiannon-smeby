@@ -10,6 +10,7 @@ export default function Homepage() {
     return (
         <div className='homepage'>
             <div className='photos'>
+                <h2>Click on the photos below to learn about me:</h2>
                 <section className='gridContainer'>
                     <div className='gridRows'>
                         {infoPhotos}
