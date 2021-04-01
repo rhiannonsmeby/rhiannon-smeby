@@ -40,7 +40,7 @@ const INFO = [
     {
         id: 7,
         name: 'vote',
-        content: `As a former political science major, I did a lot of campaign 
+        content: `As a political science major, I did a lot of campaign 
         work in college. Talking to strangers about their personal and political 
         values everyday helped me develop important and unique interpersonal skills.`
     },
