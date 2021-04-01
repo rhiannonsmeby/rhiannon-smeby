@@ -5,26 +5,8 @@ import './Homepage.css';
 export default function Homepage() {
     return (
         <div className='homepage'>
-            <div className='intro'>
             <div className='photos'>
                 <PhotoGrid />
-            </div>
-            {/* <div className='introduction'>
-                <h2>Hello,</h2>
-                <h3>I'm Rhiannon</h3>
-                <p>
-                    I am a <strong>Software Engineer</strong> living in <strong>
-                    Chicago, Illinois</strong>.
-                </p>
-                <p>
-                    I enjoy programming JavaScript applications and as a former 
-                    political science major and lifetime student of the social sciences, I
-                    am passionate about creating web apps that make life easier and more enjoyable.
-                </p>
-                <p>
-                    Take a look at my website and feel free to <a href={`mailto:smebyrhi@gmail.com`} target={`_blank`}>contact me</a>!
-                </p>
-            </div> */}
             </div>
             <div className='about-me'>
                 <h2>More about me:</h2>
