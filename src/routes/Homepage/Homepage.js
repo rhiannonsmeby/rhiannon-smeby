@@ -1,12 +1,20 @@
 import React from 'react';
+import INFO from '../../store/infoStore';
 import PhotoGrid from '../../components/PhotoGrid/PhotoGrid';
 import './Homepage.css';
 
 export default function Homepage() {
+    const infoPhotos = INFO.map(info => {
+        return <PhotoGrid key={info.id} info={info} />
+    })
     return (
         <div className='homepage'>
             <div className='photos'>
-                <PhotoGrid />
+                <section className='gridContainer'>
+                    <div className='gridRows'>
+                        {infoPhotos}
+                    </div>
+                </section>
             </div>
             <div className='about-me'>
                 <h2>More about me:</h2>
@@ -23,7 +31,7 @@ export default function Homepage() {
                 </p>
                 <p>
                     Recently, I have been immersed in a full-time Software Engineering  
-                    certificate program where I learned HTML, CSS, JavaScript, and associated 
+                    certificate program where I learned JavaScript, HTML, CSS, and associated 
                     frontend and backend languages and libraries. 
                 </p>
                 <p>

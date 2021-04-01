@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './NavBar.css';
 
 export default function Header() {
@@ -9,9 +9,9 @@ export default function Header() {
                 <Link to={`/`}>Rhiannon Smeby</Link>
             </h1> */}
             <ul className='nav'>
-                <li className='nav-item'><Link to={`/`}>About me</Link></li>
-                <li className='nav-item'><Link to={`/projects`}>Projects</Link></li>
-                <li className='nav-item'><Link to={`/contact-me`}>Contact me</Link></li>
+                <li className='nav-item'><NavLink exact to={`/`} activeClassName='navActive'>About me</NavLink></li>
+                <li className='nav-item'><NavLink to={`/projects`} activeClassName='navActive'>Projects</NavLink></li>
+                <li className='nav-item'><NavLink to={`/contact-me`} activeClassName='navActive'>Contact me</NavLink></li>
             </ul>
         </nav>
     );
