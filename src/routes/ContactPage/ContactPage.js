@@ -2,20 +2,18 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import './ContactPage.css';
 
 export default function ContactPage() {
     return (
         <section>
             <div className="contact">
-                <div className="contact-icons">
-                    <h1>Contact Me</h1>
-                        <p>Whether you are looking to hire a developer or looking for a partner in an upcoming hackathon, please reach out!</p>
-                            <ul>
-                                <li className="icon"><a href={"mailto:smebyrhi@gmail.com"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faEnvelope}/></a></li>
-                                <li className="icon"><a href={"https://github.com/rhiannonsmeby"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faGithub}/></a></li>
-                                <li className="icon"><a href={"https://www.linkedin.com/in/rhiannonsmeby/"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
-                            </ul>
-                </div>
+                <h2>Contact Me:</h2>
+                    <ul className="contact-icons">
+                        <li className="icon"><a href={"mailto:smebyrhi@gmail.com"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faEnvelope}/></a></li>
+                        <li className="icon"><a href={"https://github.com/rhiannonsmeby"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faGithub}/></a></li>
+                        <li className="icon"><a href={"https://www.linkedin.com/in/rhiannonsmeby/"} target={"_blank"} rel={'noreferrer'}><FontAwesomeIcon icon={faLinkedinIn}/></a></li>
+                    </ul>
                 <div className="form">
                     <form action="https://formspree.io/f/mvovqodp" method="POST">
                         <fieldset>

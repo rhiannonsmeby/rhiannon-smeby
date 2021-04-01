@@ -30,7 +30,7 @@ export default function Homepage() {
                 <h2>More about me:</h2>
                 <p>
                     I enjoy programming with JavaScript and I
-                    am passionate about creating web apps that help make life easier and more enjoyable.
+                    am passionate about creating web apps that help make life easier and more fun!
                 </p>
                 <p>
                     After graduating college, I began working as a development coordinator
