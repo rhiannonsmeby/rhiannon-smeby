@@ -33,10 +33,10 @@ export default function Homepage() {
                 <p>
                     Recently, I have been immersed in a full-time Software Engineering  
                     certificate program where I learned JavaScript, HTML, CSS, and associated 
-                    frontend and backend languages and libraries. 
+                    front-end and back-end languages and libraries. 
                 </p>
                 <p>
-                    In addition to programming- I love painting, spending time outdoors, reading, and watching bad reality tv.
+                    In addition to programming I love painting, spending time outdoors, reading, and watching bad reality tv.
                 </p>
                 <p>
                     Check out my <a href={`https://docs.google.com/document/d/1qi1i3YY0NO8XRGlfLuwDW78kpWSzrpVjXHVJDE9cjCs/edit?usp=sharing`} target={"_blank"} rel={'noreferrer'}>resume</a>, <a href={`https://github.com/rhiannonsmeby`} target={"_blank"} rel={'noreferrer'}>GitHub</a>, or <a href={`https://www.linkedin.com/in/rhiannonsmeby/`} target={"_blank"} rel={'noreferrer'}>LinkedIn</a> to learn more about my qualifications!
