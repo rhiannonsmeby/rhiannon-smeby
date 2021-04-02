@@ -62,5 +62,11 @@
     .gridItem p { 
       font-size: 10px;
     }
+
+  @media all and (max-width: 340px) {
+    .gridItem p {
+      font-size: 8px;
+    }
+  }
 }
 
