@@ -17,7 +17,7 @@ export default class PhotoGrid extends React.Component {
     render() {
         return (
             <div className='gridItem gridItemBlur' onClick={() => this.handleClick()}>
-                <PhotoGridImages photoId={this.props.info.id} />
+                <PhotoGridImages photoId={this.props.info.id} photoName={this.props.info.name}/>
                 {this.state.showMe ? <p>
                     {this.props.info.content}
                 </p> : null}

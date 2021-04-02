@@ -72,7 +72,7 @@ nav {
   }
 
   .navActive {
-    border: 2px solid #4D9078;
+    border: 2px solid #7AB8A2;
     border-radius: 1rem;
   }
 
@@ -83,4 +83,10 @@ nav {
       justify-content: flex-start;
       align-items: flex-start;
     }
+  }
+
+  @media all and (max-width:360px) {
+      .nav { 
+        flex-direction: column;
+      }
   }

@@ -24,7 +24,7 @@ export default function Homepage() {
                     am passionate about creating web apps that help make life easier and more fun!
                 </p>
                 <p>
-                    After graduating college, I began working as a development coordinator
+                    After graduating from college, I began working as a development coordinator
                     at a local nonprofit. I got to design and regularly update the 
                     organization's website, create marketing copy for social media, lead donor communications, and
                     write grants. While I was there, I quickly realized the value 
@@ -36,7 +36,7 @@ export default function Homepage() {
                     front-end and back-end languages and libraries. 
                 </p>
                 <p>
-                    In addition to programming I love painting, spending time outdoors, reading, and watching bad reality tv.
+                    In addition to programming I love painting, spending time outdoors, reading, and watching bad reality TV.
                 </p>
                 <p>
                     Check out my <a href={`https://docs.google.com/document/d/1qi1i3YY0NO8XRGlfLuwDW78kpWSzrpVjXHVJDE9cjCs/edit?usp=sharing`} target={"_blank"} rel={'noreferrer'}>resume</a>, <a href={`https://github.com/rhiannonsmeby`} target={"_blank"} rel={'noreferrer'}>GitHub</a>, or <a href={`https://www.linkedin.com/in/rhiannonsmeby/`} target={"_blank"} rel={'noreferrer'}>LinkedIn</a> to learn more about my qualifications!

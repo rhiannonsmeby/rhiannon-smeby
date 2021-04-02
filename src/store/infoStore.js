@@ -21,7 +21,7 @@ const INFO = [
     {
         id: 4,
         name: 'michigan',
-        content: `I love spending time outdoors. I took this picture on a weekend getaway to Michigan. I never 
+        content: `Spending time outdoors is one of my favorite activities. This picture is from a weekend getaway to Michigan. I never 
         imagined it would be so beautiful!`
     },
     {
@@ -35,7 +35,7 @@ const INFO = [
     {
         id: 6,
         name: 'uganda',
-        content: `During college I was lucky enough to study abroad in Uganda. I loved it and I can't wait to visit again someday!`
+        content: `During college, I was lucky enough to study abroad in Uganda. I loved it and I can't wait to visit again someday!`
     },
     {
         id: 7,

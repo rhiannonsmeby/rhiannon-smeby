@@ -58,3 +58,9 @@
     }
   }
 
+  @media all and (max-width:400px) {
+    .gridItem p { 
+      font-size: 10px;
+    }
+}
+

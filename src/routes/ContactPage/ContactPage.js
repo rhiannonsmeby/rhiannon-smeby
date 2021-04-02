@@ -10,7 +10,7 @@ export default function ContactPage() {
             <div className="contact">
                 <h2>Contact Me:</h2>
                     <p>
-                        Thank you for taking the time to checkout my portfolio! 
+                        Thank you for taking the time to check out my portfolio! 
                         If you'd like to get in contact with me, you can reach 
                         me at <a href={'mailto:smebyrhi@gmail.com'} target={'_blank'} rel={'noreferrer'}>smebyrhi@gmail.com </a> 
                         or feel free to use the form below. I will get back to you ASAP!

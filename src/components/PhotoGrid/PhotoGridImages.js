@@ -10,7 +10,7 @@ import california from '../../images/california.jpg';
 
 export default function PhotoGridImages(props) {
     let image;
-
+    
     props.photoId === 1 ? image = chicago
         : (props.photoId === 2) ? image = iowa
             : (props.photoId === 3) ? image = lakefront
@@ -21,6 +21,6 @@ export default function PhotoGridImages(props) {
             : (props.photoId === 8) ? image = california
             : image = null;
     return (
-        <img className='gridImage' src={image} alt={props.title}></img>
+        <img className='gridImage' src={image} alt={props.photoName}></img>
     )
 }

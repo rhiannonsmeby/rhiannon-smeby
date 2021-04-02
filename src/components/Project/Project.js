@@ -8,7 +8,7 @@ export default function Project(props) {
             <h3 className='projectTitle'>
                 <a href={props.project.liveLink} rel='noreferrer' target='_blank'>{props.project.name}</a>
             </h3>
-            <ProjectImage projectId={props.project.id} />
+            <ProjectImage projectId={props.project.id} projectTitle={props.project.name}/>
             <p className='projectDescription'>
                 {props.project.description}
             </p>
