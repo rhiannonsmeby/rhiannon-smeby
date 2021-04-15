@@ -31,7 +31,7 @@ const PROJECTS = [
         demonstrates my ability to work with an existing code base and utilize 
         the Linked List data structure.`,
         stack: 'React.js, Node.js, Express, PostgreSQL, CSS',
-        liveLink: 'https://spaced-repetition-alpha-lovat.vercel.app/register',
+        liveLink: 'https://spaced-repetition-rhiannon.vercel.app/',
         clientRepo: 'https://github.com/rhiannonsmeby/spaced-repetition-client',
     }
 ]
