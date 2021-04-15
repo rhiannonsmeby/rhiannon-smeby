@@ -2,11 +2,20 @@ import React from 'react';
 import INFO from '../../store/infoStore';
 import PhotoGrid from '../../components/PhotoGrid/PhotoGrid';
 import './Homepage.css';
+import ReactGA from 'react-ga';
 
-export default function Homepage() {
+export default class Homepage extends React.Component {
+
+    componentDidMount() {
+        ReactGA.initialize('G-QVFRBZR8CD')
+    }
+
+  render () {
+    // Get photos and descriptions from the store
     const infoPhotos = INFO.map(info => {
         return <PhotoGrid key={info.id} info={info} />
     })
+    
     return (
         <div className='homepage'>
             <div className='photos'>
@@ -44,4 +53,5 @@ export default function Homepage() {
             </div>
         </div>
     );
+  }
 }
