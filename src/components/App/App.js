@@ -7,8 +7,10 @@ import ContactPage from '../../routes/ContactPage/ContactPage';
 import Homepage from '../../routes/Homepage/Homepage';
 import ProjectPage from '../../routes/ProjectPage/ProjectPage';
 import Header from '../Header/Header';
+import ReactGA from 'react-ga';
 
 function App() {
+  ReactGA.initialize('G-QVFRBZR8CD');
   return (
     <div className="App">
       <Route path='/' component={Header} />
