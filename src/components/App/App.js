@@ -9,10 +9,10 @@ import ProjectPage from '../../routes/ProjectPage/ProjectPage';
 import Header from '../Header/Header';
 import ReactGA from 'react-ga';
 
-const TRACKING_ID = "G-QVFRBZR8CD";
-ReactGA.initialize(TRACKING_ID);
-
 function App() {
+  // Initialize Google Analytics with tracking id
+  ReactGA.initialize('G-QVFRBZR8CD');
+
   return (
     <div className="App">
       <Route path='/' component={Header} />
