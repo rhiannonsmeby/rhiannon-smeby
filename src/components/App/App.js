@@ -7,6 +7,10 @@ import ContactPage from '../../routes/ContactPage/ContactPage';
 import Homepage from '../../routes/Homepage/Homepage';
 import ProjectPage from '../../routes/ProjectPage/ProjectPage';
 import Header from '../Header/Header';
+import ReactGA from 'react-ga';
+
+const TRACKING_ID = "G-QVFRBZR8CD";
+ReactGA.initialize(TRACKING_ID);
 
 function App() {
   return (
