@@ -8,6 +8,7 @@ export default class Homepage extends React.Component {
 
     componentDidMount() {
         ReactGA.initialize('G-QVFRBZR8CD')
+        ReactGA.pageview(window.location.pathname + window.location.search)
     }
 
   render () {
