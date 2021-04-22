@@ -1,27 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import PhotoGridImages from './PhotoGridImages';
 import './PhotoGrid.css';
 
-export default class PhotoGrid extends React.Component {
-    constructor() {
-        super()
-        this.state = {
-            showMe: false
-        }
+export default function PhotoGrid(props) {
+    let [showMe, setShowMe] = useState(false);
+
+    function handleClick() {
+        setShowMe(prevShowMe => !prevShowMe);
     }
-    handleClick = () => {
-        this.setState({
-            showMe: !this.state.showMe
-        })
-    }
-    render() {
         return (
-            <div className='gridItem gridItemBlur' onClick={() => this.handleClick()}>
-                <PhotoGridImages photoId={this.props.info.id} photoName={this.props.info.name}/>
-                {this.state.showMe ? <p>
-                    {this.props.info.content}
+            <div className='gridItem gridItemBlur' onClick={handleClick}>
+                <PhotoGridImages photoId={props.info.id} photoName={props.info.name}/>
+                {showMe ? <p>
+                    {props.info.content}
                 </p> : null}
             </div>
         );
-    }
 }
