@@ -76,6 +76,21 @@ nav {
     border-radius: 1rem;
   }
 
+  .nav-toggle {
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+  }
+
+  .open {
+    height: 100vh;
+  }
+
+  .hidden {
+    display: none;
+  }
+
   @media all and (min-width:800px) {
     nav {
       display: flex;
@@ -85,8 +100,34 @@ nav {
     }
   }
 
-  @media all and (max-width:360px) {
+  @media all and (max-width:600px) {
       .nav { 
         flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav {
+        height: 0;
+        width: 100%;
+        overflow: hidden;
+        transition: 250ms height ease-in-out;
+      }
+
+      li {
+        display: block;
+        text-align: center;
+        padding: 1.5rem 0;
+      }
+
+      li a {
+        font-size: 1.4rem;
+      }
+
+      ul {
+        padding: 0;
+      }
+
+      .nav-toggle {
+        display: block;
       }
   }
